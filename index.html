@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sabor & Saúde — E-book de Culinária Funcional.</title>
+  <meta name="description" content="E-book de culinária funcional com 60 receitas práticas, nutritivas e deliciosas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="brand">
+        <span class="brand__mark">🌿</span>
+        <span class="brand__text">Sabor<span class="brand__amp">&</span>Saúde</span>
+      </a>
+      <nav class="nav__links" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#receitas">Receitas</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#precos" class="btn btn--small btn--primary">Comprar agora</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="hero__blob hero__blob--1"></div>
+    <div class="hero__blob hero__blob--2"></div>
+    <div class="container hero__inner">
+      <div class="hero__copy reveal">
+        <p class="eyebrow">E-book · 60 receitas · 220 páginas</p>
+        <h1>Cozinha <em>funcional</em> que <span class="grad">abre o apetite</span> e cuida de você.</h1>
+        <p class="hero__lead">
+          Receitas práticas, nutritivas e deliciosas — pensadas para o dia a dia real:
+          sem ingredientes impossíveis, sem culpa, com muito sabor.
+        </p>
+        <div class="hero__cta">
+          <a href="#precos" class="btn btn--primary btn--lg">Quero o e-book</a>
+          <a href="#receitas" class="btn btn--ghost btn--lg">Ver receitas grátis</a>
+        </div>
+        <ul class="hero__stats">
+          <li><strong>60+</strong> receitas</li>
+          <li><strong>12</strong> capítulos</li>
+          <li><strong>4.9★</strong> avaliação média</li>
+          <li><strong>∞</strong> atualizações</li>
+        </ul>
+      </div>
+
+      <div class="hero__book reveal" id="bookTilt">
+        <div class="book">
+          <div class="book__cover">
+            <div class="book__cover-inner">
+              <span class="book__tag">EDIÇÃO 2026</span>
+              <h2 class="book__title">Sabor & Saúde</h2>
+              <p class="book__sub">Culinária funcional para a vida real</p>
+              <div class="book__deco">
+                <span>🥑</span><span>🥦</span><span>🍋</span><span>🫐</span>
+              </div>
+              <p class="book__author">por Maria Oliveira</p>
+            </div>
+          </div>
+          <div class="book__pages"></div>
+        </div>
+        <div class="book__badge">
+          <span class="book__badge-icon">📖</span>
+          <div>
+            <strong>Bônus grátis</strong>
+            <small>Planner semanal de refeições</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#sobre" class="hero__scroll" aria-label="Rolar para baixo">
+      <span class="hero__scroll-dot"></span>
+    </a>
+  </section>
+
+  <section class="sobre section" id="sobre">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Por que este e-book</p>
+        <h2>Comida de verdade,<br />sem complicação</h2>
+      </div>
+      <div class="sobre__grid">
+        <article class="card reveal">
+          <span class="card__icon">⏱️</span>
+          <h3>Receitas em até 30 min</h3>
+          <p>Cada receita cabe na sua rotina. Tempo de preparo, rendimento e dicas de substituição em todas as páginas.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__icon">🧠</span>
+          <h3>Nutrição com propósito</h3>
+          <p>Entenda o papel de cada ingrediente: energia, imunidade, foco e digestão — explicado de forma simples.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__icon">🛒</span>
+          <h3>Lista de compras inteligente</h3>
+          <p>Capítulo dedicado a montar despensa funcional e economizar sem abrir mão de variedade.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card__icon">♻️</span>
+          <h3>Zero desperdício</h3>
+          <p>Técnicas de aproveitamento integral dos alimentos e como transformar sobras em novas refeições.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="receitas section section--tint" id="receitas">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Amostra grátis</p>
+        <h2>Experimente uma receita<br />antes de comprar</h2>
+        <p class="section__sub">Escolha uma receita, ajuste as porções e marque os ingredientes que já tem em casa.</p>
+      </div>
+
+      <div class="tabs reveal" role="tablist" aria-label="Receitas de amostra">
+        <button class="tab is-active" role="tab" aria-selected="true" data-tab="0">🥣 Bowl energético</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="1">🍲 Curry de grão-de-bico</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="2">🍫 Brownie funcional</button>
+      </div>
+
+      <div class="recipe reveal" id="recipePanel"></div>
+    </div>
+  </section>
+
+  <section class="conteudo section" id="conteudo">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">O que você vai aprender</p>
+        <h2>12 capítulos, do básico<br />ao avançado</h2>
+      </div>
+      <div class="conteudo__list reveal">
+        <div class="capitulo">
+          <span class="capitulo__num">01</span>
+          <div><h3>Despensa funcional</h3><p>Os 30 itens essenciais para começar.</p></div>
+        </div>
+        <div class="capitulo">
+          <span class="capitulo__num">02</span>
+          <div><h3>Cafés da manhã com energia</h3><p>Bowls, panquecas e smoothies nutritivos.</p></div>
+        </div>
+        <div class="capitulo">
+          <span class="capitulo__num">03</span>
+          <div><h3>Almoços de 20 minutos</h3><p>Pratos completos para dias corridos.</p></div>
+        </div>
+        <div class="capitulo">
+          <span class="capitulo__num">04</span>
+          <div><h3>Jantares leves</h3><p>Refeições que ajudam a dormir melhor.</p></div>
+        </div>
+        <div class="capitulo">
+          <span class="capitulo__num">05</span>
+          <div><h3>Sobremesas sem culpa</h3><p>Doces com açúcar natural e textura incrível.</p></div>
+        </div>
+        <div class="capitulo">
+          <span class="capitulo__num">06</span>
+          <div><h3>Lanches para levar</h3><p>Snacks práticos para trabalho e viagem.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="depoimentos section section--tint" id="depoimentos">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Quem já leu</p>
+        <h2>Histórias de quem<br />voltou a cozinhar</h2>
+      </div>
+
+      <div class="slider reveal" id="slider">
+        <div class="slider__track" id="sliderTrack">
+          <figure class="depoimento">
+            <div class="depoimento__stars">★★★★★</div>
+            <blockquote>"Eu não cozinhava nada além de miojo. Hoje faço o bowl energético toda semana e me sinto outra pessoa. As instruções são tão claras que parece que a Maria está do meu lado na cozinha."</blockquote>
+            <figcaption><strong>Camila R.</strong><span>Nutricionista · São Paulo</span></figcaption>
+          </figure>
+          <figure class="depoimento">
+            <div class="depoimento__stars">★★★★★</div>
+            <blockquote>"O capítulo de despensa funcional mudou meu mercado. Gasto menos, desperdiço quase nada e minhas refeições ficaram muito mais variadas. Vale cada centavo."</blockquote>
+            <figcaption><strong>Diego M.</strong><span>Engenheiro · Belo Horizonte</span></figcaption>
+          </figure>
+          <figure class="depoimento">
+            <div class="depoimento__stars">★★★★★</div>
+            <blockquote>"Comprei para mim e acabei presenteando minha mãe. O planner semanal de bônus virou ritual de domingo na nossa casa. Receitas que funcionam de verdade."</blockquote>
+            <figcaption><strong>Juliana T.</strong><span>Professora · Curitiba</span></figcaption>
+          </figure>
+        </div>
+        <div class="slider__nav">
+          <button class="slider__btn" id="sliderPrev" aria-label="Depoimento anterior">←</button>
+          <div class="slider__dots" id="sliderDots"></div>
+          <button class="slider__btn" id="sliderNext" aria-label="Próximo depoimento">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq section" id="faq">
+    <div class="container container--narrow">
+      <div class="section__head reveal">
+        <p class="eyebrow">Dúvidas frequentes</p>
+        <h2>Perguntas & respostas</h2>
+      </div>
+      <div class="accordion reveal" id="accordion">
+        <div class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span>Como recebo o e-book após a compra?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__body"><p>Imediatamente! Assim que o pagamento é confirmado, você recebe um e-mail com o link para baixar o PDF em todos os seus dispositivos.</p></div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span>Preciso ter ingredientes caros ou difíceis de achar?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__body"><p>Não. Todas as receitas usam ingredientes que você encontra em qualquer mercado. Cada receita traz opções de substituição para itens regionais ou sazonais.</p></div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span>As receitas servem para quem tem restrições alimentares?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__body"><p>Sim. Todas as receitas são identificadas com etiquetas (sem glúten, sem lactose, vegana, low carb) e há um capítulo dedicado a adaptações.</p></div>
+        </div>
+        <div class="accordion__item">
+          <button class="accordion__head" aria-expanded="false">
+            <span>E se eu não gostar do e-book?</span>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__body"><p>Você tem 7 dias de garantia incondicional. Se não amar, devolvemos 100% do valor — sem perguntas.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="precos section section--tint" id="precos">
+    <div class="container">
+      <div class="section__head reveal">
+        <p class="eyebrow">Oferta de lançamento</p>
+        <h2>Escolha seu acesso</h2>
+      </div>
+      <div class="precos__grid">
+        <div class="plano reveal">
+          <h3>E-book</h3>
+          <p class="plano__desc">O livro completo em PDF, para ler onde quiser.</p>
+          <p class="plano__preco"><span class="plano__de">R$ 97</span> <strong>R$ 49</strong><small>pagamento único</small></p>
+          <ul class="plano__lista">
+            <li>✓ 60 receitas em PDF</li>
+            <li>✓ 12 capítulos + introdução</li>
+            <li>✓ Etiquetas de restrições</li>
+            <li>✓ Acesso vitalício</li>
+          </ul>
+          <a href="#" class="btn btn--primary btn--block" data-compra="ebook">Comprar agora</a>
+        </div>
+        <div class="plano plano--destaque reveal">
+          <span class="plano__selo">MAIS VENDIDO</span>
+          <h3>Kit Completo</h3>
+          <p class="plano__desc">E-book + planner + vídeos e atualizações.</p>
+          <p class="plano__preco"><span class="plano__de">R$ 197</span> <strong>R$ 89</strong><small>pagamento único</small></p>
+          <ul class="plano__lista">
+            <li>✓ Tudo do plano E-book</li>
+            <li>✓ Planner semanal de refeições</li>
+            <li>✓ 12 videoaulas de técnica</li>
+            <li>✓ Lista de compras editável</li>
+            <li>✓ Atualizações gratuitas</li>
+          </ul>
+          <a href="#" class="btn btn--primary btn--block" data-compra="kit">Comprar kit completo</a>
+        </div>
+      </div>
+      <p class="precos__nota reveal">🔒 Pagamento seguro · Garantia de 7 dias · Acesso imediato</p>
+    </div>
+  </section>
+
+  <section class="news section" id="news">
+    <div class="container container--narrow">
+      <div class="news__card reveal">
+        <h2>Receba 3 receitas grátis</h2>
+        <p>Cadastre-se e leve de presente um mini e-book com 3 receitas funcionais exclusivas.</p>
+        <form class="news__form" id="newsForm" novalidate>
+          <input type="email" id="newsEmail" placeholder="Seu melhor e-mail" autocomplete="email" required />
+          <button type="submit" class="btn btn--primary">Quero receber</button>
+        </form>
+        <p class="news__msg" id="newsMsg" role="status"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__mark">🌿</span>
+        <span class="brand__text">Sabor<span class="brand__amp">&</span>Saúde</span>
+        <p>Culinária funcional para a vida real.</p>
+      </div>
+      <nav class="footer__links" aria-label="Links do rodapé">
+        <a href="#sobre">Sobre</a>
+        <a href="#receitas">Receitas</a>
+        <a href="#faq">FAQ</a>
+        <a href="#precos">Preços</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar modo claro/escuro">
+        <span class="theme-toggle__sun">☀️</span>
+        <span class="theme-toggle__moon">🌙</span>
+      </button>
+    </div>
+    <p class="footer__copy">© 2026 Sabor & Saúde · Feito com 💛 e boas receitas.</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
